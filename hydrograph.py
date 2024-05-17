@@ -36,7 +36,7 @@ phi_table = pd.DataFrame(list(zip([1.69],[1.78],[1.82],[1.87],[1.90],[1.92],[1.9
 # stylesheet with the .dbc class
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc_css])
-
+server = app.server
 #endregion
 
 
